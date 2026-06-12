@@ -100,7 +100,7 @@
     height: min(64vw, 250px);
   }
   .hero-img-wrap { border: 1px solid var(--border) !important; box-shadow: 0 0 0 1px var(--border), 0 10px 30px rgba(0,0,0,0.35); position: relative; overflow: hidden; }
-  .hero-img-wrap::before { content: ""; position: absolute; inset: 0; border-radius: var(--r3); padding: 1.5px; background: linear-gradient(135deg, var(--pri), var(--blu), var(--acc)); background-size: 300% 300%; opacity: 1; z-index: 5; pointer-events: none; animation: heroBorderShift 4s ease-in-out infinite; -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+  .hero-img-wrap::before { content: ""; position: absolute; inset: 0; border-radius: var(--r3); padding: 1.5px; background: var(--grad1); background-size: 300% 300%; opacity: 1; z-index: 5; pointer-events: none; animation: heroBorderShift 4s ease-in-out infinite; -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
   .hero-img-wrap::after { display: none; }
   .hero-img-wrap img { position: relative; z-index: 2; border-radius: calc(var(--r3) - 1px); }
   .hero-img-glow { inset: -28px; }
