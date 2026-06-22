@@ -9,10 +9,11 @@
   // ==================== PORTFOLIO DATA ====================
   // ==================== PORTFOLIO DATA ====================
   const PROJECTS = [
-    // --- Brand Identity (3) ---
-    { title:'Biogen Brand Identity', category:'Brand Identity', count:3, image:'brand-identity/biogen-new.jpg', imgW:900, imgH:900, badge:'Number 1 in Department', description:'A complete visual identity system developed to establish a strong and professional brand image.' },
-    { title:'Corporate Business Card Design', category:'Brand Identity', count:3, image:'brand-identity/biogen-cards-new.jpg', imgW:900, imgH:528, description:'Professional print collateral created to maintain brand consistency across customer touchpoints.' },
-    { title:'Product Packaging Design', category:'Brand Identity', count:3, image:'brand-identity/biogen-flyer-new.jpg', imgW:900, imgH:1272, description:'Packaging concepts designed to enhance presentation, recognition, and customer appeal.' },
+    // --- Brand Identity (4) ---
+    { title:'Biogen Brand Logo', category:'Brand Identity', count:4, image:'brand-identity/biogen-logo.png', imgW:750, imgH:750, badge:'Number 1 in Department', description:'A professional brand logo designed to represent identity, values, and recognition in the market.' },
+    { title:'Biogen Brand Identity', category:'Brand Identity', count:4, image:'brand-identity/biogen-new.jpg', imgW:900, imgH:900, badge:'Number 1 in Department', description:'A complete visual identity system developed to establish a strong and professional brand image.' },
+    { title:'Corporate Business Card Design', category:'Brand Identity', count:4, image:'brand-identity/biogen-cards-new.jpg', imgW:900, imgH:528, description:'Professional print collateral created to maintain brand consistency across customer touchpoints.' },
+    { title:'Product Packaging Design', category:'Brand Identity', count:4, image:'brand-identity/biogen-flyer-new.jpg', imgW:900, imgH:1272, description:'Packaging concepts designed to enhance presentation, recognition, and customer appeal.' },
 
     // --- Graphic Design (19) ---
     { title:'Marketing Campaign Flyer', category:'Graphic Design', count:19, image:'graphic-design/royal-touch.jpg', imgW:900, imgH:1125, description:'Promotional design created to communicate services clearly and drive audience engagement.' },
@@ -56,14 +57,13 @@
     { title:'Marketing Video Project', category:'Video Editing', count:4, image:'video-editing/preview-7.webp', imgW:1366, imgH:768, description:'Professional promotional video editing focused on clear communication and visual impact.' },
     { title:'Promotional Ad Video Edit', category:'Video Editing', count:4, image:'lead-generation/preview-new-1.webp', imgW:1366, imgH:649, description:'Engaging video content edited for social media platforms with a focus on retention.' },
 
-    // --- Fiverr Projects (7) ---
-    { title:'Freelance Design Project', category:'Fiverr Projects', count:7, image:'fiverr-gigs/flyer-gig-1-new.png', imgW:2112, imgH:1152, description:'Client work successfully delivered through Fiverr with a focus on quality and results.' },
-    { title:'Freelance Design Project', category:'Fiverr Projects', count:7, image:'fiverr-gigs/flyer-gig-2-new.png', imgW:2112, imgH:1152, description:'Client work successfully delivered through Fiverr with a focus on quality and results.' },
-    { title:'Client Service Showcase', category:'Fiverr Projects', count:7, image:'fiverr-gigs/va-gig-cover.jpg', imgW:900, imgH:506, description:'A collection of freelance projects completed for businesses across multiple industries.' },
-    { title:'Client Service Showcase', category:'Fiverr Projects', count:7, image:'fiverr-gigs/service-gig-1-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
-    { title:'Client Service Showcase', category:'Fiverr Projects', count:7, image:'fiverr-gigs/service-gig-2-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
-    { title:'Client Service Showcase', category:'Fiverr Projects', count:7, image:'fiverr-gigs/service-gig-3-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
-    { title:'Client Service Showcase', category:'Fiverr Projects', count:7, image:'fiverr-gigs/service-gig-1.jpg', imgW:900, imgH:490, description:'A collection of freelance projects completed for businesses across multiple industries.' },
+    // --- Fiverr Projects (6) ---
+    { title:'Freelance Design Project', category:'Fiverr Projects', count:6, image:'fiverr-gigs/flyer-gig-1-new.png', imgW:2112, imgH:1152, description:'Client work successfully delivered through Fiverr with a focus on quality and results.' },
+    { title:'Freelance Design Project', category:'Fiverr Projects', count:6, image:'fiverr-gigs/flyer-gig-2-new.png', imgW:2112, imgH:1152, description:'Client work successfully delivered through Fiverr with a focus on quality and results.' },
+    { title:'Client Service Showcase', category:'Fiverr Projects', count:6, image:'fiverr-gigs/va-gig-cover.jpg', imgW:900, imgH:506, description:'A collection of freelance projects completed for businesses across multiple industries.' },
+    { title:'Client Service Showcase', category:'Fiverr Projects', count:6, image:'fiverr-gigs/service-gig-1-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
+    { title:'Client Service Showcase', category:'Fiverr Projects', count:6, image:'fiverr-gigs/service-gig-2-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
+    { title:'Client Service Showcase', category:'Fiverr Projects', count:6, image:'fiverr-gigs/service-gig-3-new.png', imgW:1920, imgH:1080, description:'A collection of freelance projects completed for businesses across multiple industries.' },
   ];
 
   // ArrowUpRight SVG for portfolio items
